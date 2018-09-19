@@ -1,3 +1,5 @@
+**Deprecated** do not use.
+
 OpenSSL-Pod
 ===========
 
