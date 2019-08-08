@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     CHECKSUM_FILE="checksum"
 
     SRC_TARBALL="openssl-${OPENSSL_VERSION}.tar.gz"
-    SRC_URL="https://www.openssl.org/source/${SRC_TARBALL}"
+    SRC_URL="https://www.openssl.org/source/old/${SRC_TARBALL}"
 
     if [ -f file.tgz ]
     then
