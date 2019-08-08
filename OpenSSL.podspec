@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.version         = "1.0.213"
   s.summary         = "OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support."
   s.author          = "OpenSSL Project <openssl-dev@openssl.org>"
-  s.source          = { http: "https://www.openssl.org/source/openssl-#{OPENSSL_VERSION}.tar.gz", sha256: "8c6ff15ec6b319b50788f42c7abc2890c08ba5a1cdcd3810eb9092deada37b0f" }
+  s.source          = { http: "https://www.openssl.org/source/old/1.0.2/openssl-#{OPENSSL_VERSION}.tar.gz", sha256: "8c6ff15ec6b319b50788f42c7abc2890c08ba5a1cdcd3810eb9092deada37b0f" }
   s.homepage        = "https://github.com/WhisperSystems/OpenSSL-Pod"
   s.source_files    = "opensslIncludes/openssl/*.h"
   s.header_dir      = "openssl"
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     CHECKSUM_FILE="checksum"
 
     SRC_TARBALL="openssl-${OPENSSL_VERSION}.tar.gz"
-    SRC_URL="https://www.openssl.org/source/${SRC_TARBALL}"
+    SRC_URL="https://www.openssl.org/source/old/1.0.2/${SRC_TARBALL}"
 
     if [ -f file.tgz ]
     then
